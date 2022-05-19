@@ -43,15 +43,16 @@ Some desirable qualities of the 1970s era **finger protocol** are:
 * ✅ the protocol and default data-format is **simple enough** for a competent software developer to be able to create a (simple) working **client** as a weekend project
   * ✅ if the default data-format is dumped to a terminal or terminal emulator it is human-readable
 * ✅ the protocol is **simple enough** for a competent software developer to be able to create a (simple) working **server** as a weekend project
-* ✅ all of a user's content was provided as a **single download**
-* ✅ a client could make a request from a server for a user who is _not_ local to that server
+* ✅ all of a (single) user's content is provided as a **single download**
+* ✅ a client could make a request from a server for a user who is _not_ (necessarily) local to that server
 
 ### Finger Protocol Disadvantages
 
 Some undesirable qualities of the 1970s era **finger protocol** are:
 
-* when a client receives a response from a server, you do not know whether you received all the data or not, or if the connection was disconnected prematurely,
+* when a client receives a response from a server, it does not know whether it received all the data or not, as, for example, the ntwork connection could have been disconnected prematurely, but there is no way to detect this,
 * there is no _tamper detection_,
+* there is no way to determine whether the finger (`.plan`) file was actually from the user whose content was requested,
 * there is no privacy.
 
 
