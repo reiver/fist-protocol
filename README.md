@@ -31,6 +31,8 @@ Or:
 finger dariush
 ```
 
+### Finger Protocol Advantages
+
 Some desirable qualities of the 1970s era **finger protocol** are:
 
 * ✅ it is a **human-readable** protocol
@@ -40,3 +42,8 @@ Some desirable qualities of the 1970s era **finger protocol** are:
 * ✅ the protocol is **simple enough** for a competent software developer to be able to create a (simple) working **server** as a weekend project
 * ✅ all of a user's content was provided as a **single download**
 
+### Finger Protocol Disadvantages
+
+Some undesirable qualities of the 1970s era **finger protocol** are:
+
+* when a client receives a response from a server, you do not know whether you received all the data or not, or if the connection was disconnected prematurely
