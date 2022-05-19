@@ -46,4 +46,6 @@ Some desirable qualities of the 1970s era **finger protocol** are:
 
 Some undesirable qualities of the 1970s era **finger protocol** are:
 
-* when a client receives a response from a server, you do not know whether you received all the data or not, or if the connection was disconnected prematurely
+* when a client receives a response from a server, you do not know whether you received all the data or not, or if the connection was disconnected prematurely,
+* there is no _tamper detection_,
+* there is no privacy.
