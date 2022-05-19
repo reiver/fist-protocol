@@ -1,2 +1,4 @@
-# fist-protocol
-fist protocol — a finger inspired protocol
+# Fist Protocol
+
+The **fist protocol** is inspired by the **finger protocol** and the ways which it was used.
+
