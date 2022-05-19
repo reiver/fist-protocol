@@ -1,5 +1,7 @@
 # Fist Protocol
 
+
+
 ## Design
 
 The **fist protocol** is inspired by the **finger protocol** and the ways which **finger** was used people.
@@ -39,6 +41,7 @@ Some desirable qualities of the 1970s era **finger protocol** are:
   * rather than just a programmer-readable or machine-readable protocol,
 * ✅ the protocol is **simple enough** for even a more junior software developer to be able to understand it
 * ✅ the protocol and default data-format is **simple enough** for a competent software developer to be able to create a (simple) working **client** as a weekend project
+  * ✅ if the default data-format is dumped to a terminal or terminal emulator it is human-readable.
 * ✅ the protocol is **simple enough** for a competent software developer to be able to create a (simple) working **server** as a weekend project
 * ✅ all of a user's content was provided as a **single download**
 
@@ -49,3 +52,5 @@ Some undesirable qualities of the 1970s era **finger protocol** are:
 * when a client receives a response from a server, you do not know whether you received all the data or not, or if the connection was disconnected prematurely,
 * there is no _tamper detection_,
 * there is no privacy.
+
+
