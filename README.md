@@ -50,9 +50,10 @@ Some desirable qualities of the 1970s era **finger protocol** are:
 
 Some undesirable qualities of the 1970s era **finger protocol** are:
 
-* when a client receives a response from a server, it does not know whether it received all the data or not, as, for example, the ntwork connection could have been disconnected prematurely, but there is no way to detect this,
+* when a client receives a response from a server, it does not know whether it received all the data or not, as, for example, the network connection could have been disconnected prematurely, but there is no way to detect this,
 * there is no _tamper detection_,
 * there is no way to determine whether the finger (`.plan`) file was actually from the user whose content was requested,
-* there is no privacy.
+* there is no privacy,
+* the entire finger (`.plan`) file must be download each time, even if the exact same finger (`.plan`) file was previous downloaded.
 
 
