@@ -54,6 +54,7 @@ Some undesirable qualities of the 1970s era **finger protocol** are:
 * there is no _tamper detection_,
 * there is no way to determine whether the finger (`.plan`) file was actually from the user whose content was requested,
 * there is no privacy,
-* the entire finger (`.plan`) file must be download each time, even if the exact same finger (`.plan`) file was previous downloaded.
+* the entire finger (`.plan`) file must be download each time, even if the exact same finger (`.plan`) file was previous downloaded,
+* identity is strictly tied to an Internet domain.
 
 
