@@ -9,7 +9,7 @@ The **fist protocol** is inspired by the **finger protocol** and the ways which 
 **finger** is said to have be created back in 1971.
 
 I was using **finger** in the 1990s — and maintained my own **finger** (`.plan`) file.
-My **finger** (`.plan`) file contained:
+My **finger** (`.plan`) file backn then contained:
 * contact information,
 * URLs to my presence on other parts of the Internet,
 * a short biography,
@@ -54,7 +54,8 @@ Some undesirable qualities of the 1970s era **finger protocol** are:
 * there is no _tamper detection_,
 * there is no way to determine whether the finger (`.plan`) file was actually from the user whose content was requested,
 * there is no privacy,
-* the entire finger (`.plan`) file must be download each time, even if the exact same finger (`.plan`) file was previous downloaded,
-* identity is strictly tied to an Internet domain.
+* the entire finger (`.plan`) file must be download each time, even if the exact same finger (`.plan`) file was previously downloaded,
+* identity is strictly tied to an Internet domain,
+* there is no official way of segmenting the download (into sub-pages).
 
 
