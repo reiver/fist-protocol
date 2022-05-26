@@ -47,6 +47,7 @@ Some desirable qualities of the 1970s era **finger protocol** are:
 * ✅ the protocol is **simple enough** for a competent software developer to be able to create a (simple) working **server** as a weekend project
 * ✅ all of a (single) user's content is provided as a **single download**
 * ✅ a client could make a request from a server for a user who is _not_ (necessarily) local to that server
+* ✅ key-value pairs which are in a format that is **human-readable**, **programmer-readable**, and **machine-readable**.
 
 ### Finger Protocol Disadvantages
 
