@@ -18,7 +18,7 @@ My **finger** (`.plan`) file backn then contained:
 * jokes,
 * a bunch of ASCII art.
 
-I stored all that information in separate files, which were compiled into a finger `.plan` file. 
+I stored all that information in separate files, which were compiled into a **finger** `.plan` file. 
 
 Back then I (and I suspect most people) accessed **finger** from a terminal or terminal emulator, connected to a Unix system, by invoking command similar to:
 ```
