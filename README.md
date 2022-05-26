@@ -24,7 +24,7 @@ Back then I (and I suspect most people) accessed **finger** from a terminal or t
 ```
 finger username
 ```
-(here `username` would be replaced by the person's username on that Unix system.
+(Here `username` would be replaced by the person's username on that Unix system.
 
 So, for example:
 ```
@@ -42,7 +42,7 @@ Some desirable qualities of the 1970s era **finger protocol** are:
 * ✅ it is a **human-readable** protocol
   * rather than just a programmer-readable or machine-readable protocol
 * ✅ the protocol is **simple enough** for even a more junior software developer to be able to understand it
-* ✅ the protocol and default data-format is **simple enough** for a competent software developer to be able to create a (simple) working **client** as a weekend project
+* ✅ the protocol and default data-format are **simple enough** for a competent software developer to be able to create a (simple) working **client** as a weekend project
   * ✅ if the default data-format is dumped to a terminal or terminal emulator it is human-readable
 * ✅ the protocol is **simple enough** for a competent software developer to be able to create a (simple) working **server** as a weekend project
 * ✅ all of a (single) user's content is provided as a **single download**
