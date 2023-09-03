@@ -9,7 +9,7 @@ The **fist protocol** is inspired by the **finger protocol** and the ways which 
 **finger** is said to have be created back in 1971.
 
 I was using **finger** in the 1990s — and maintained my own **finger** (`.plan`) file.
-My **finger** (`.plan`) file backn then contained:
+Back then, my **finger** (`.plan`) file contained:
 * contact information,
 * URLs to my presence on other parts of the Internet,
 * a short biography,
